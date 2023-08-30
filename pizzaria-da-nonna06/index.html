@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="images/favicon.png" />
+
+    <title>Casa das Tintas</title>
+    <link rel="stylesheet" href="css/style-carrinho.css" />
+</head>
+<body>
+   
+    <!-- modelos de pizza na lista e no carrinho -->
+    <div class="models">
+
+        <!-- pizza na lista -->
+        <div class="pizza-item">
+            <a href="">
+                <div class="pizza-item--img"><img src="" /></div>
+                <div class="pizza-item--add">+</div>
+            </a>
+            <div class="pizza-item--price">R$ --</div>
+            <div class="pizza-item--name">--</div>
+            <div class="pizza-item--desc">--</div>
+        </div>
+
+        <!-- pizza no carrinho -->
+        <div class="cart--item">
+            <img src="" />
+            <div class="cart--item-nome">--</div>
+            <div class="cart--item--qtarea">
+                <button class="cart--item-qtmenos">-</button>
+                <div class="cart--item--qt">1</div>
+                <button class="cart--item-qtmais">+</button>
+            </div>
+        </div>
+
+    </div>
+    <!-- /models -->
+
+    <!-- .menu-openner aparecera no modo mobile -->
+    <header>
+        <h1>Casa das Tintas</h1>
+        <a href="">Home</a> 
+        <a href="">Produtos</a>
+        <a href="">Promoções</a>
+        <a href="">Contato</a>
+        <div class="menu-openner"><span>0</span>🛒</div> 
+    </header>
+    <!-- /menu-openner -->
+
+    <main>
+        <section class="home">
+            <div class="home-text">
+                <h4 class="text-h4">Os melhores Produtos</h4>
+                <h1 class="text-h1">Sua empresa com os produtos de maior qualidade</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod error veniam in voluptatem magni quisquam
+                </p>
+                <a href="#" class="home-btn">Saiba-Mais</a>
+            </div>
+            <div class="home-img">
+                <img src="images/18973.jpg" alt="hamburguer">
+            </div>
+        </section>
+    </main>
+
+        <h1>Top Categorias</h1>
+    <main class="cards">
+        <section class="card contact">
+            <div class="icon">
+                <img src="assets/Chat.png" alt="Contact us.">
+            </div>
+            <h3>Tintas</h3>
+            <span>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</span>
+            <button>Learn More</button>
+        </section>
+        <section class="card shop">
+            <div class="icon">
+                <img src="assets/Bag.png" alt="Shop here.">
+            </div>
+            <h3>Equipamentos</h3>
+            <span>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</span>
+            <button>Learn More</button>
+        </section>
+        <section class="card about">
+            <div class="icon">
+                <img src="assets/Play.png" alt="About us.">
+            </div>
+            <h3>Materiais</h3>
+            <span>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</span>
+            <button>Learn More</button>
+        </section>
+        <section class="card about">
+            <div class="icon">
+                <img src="assets/Play.png" alt="About us.">
+            </div>
+            <h3>Papel de Paredes</h3>
+            <span>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</span>
+            <button>Learn More</button>
+        </section>
+        <section class="card about">
+            <div class="icon">
+                <img src="assets/Play.png" alt="About us.">
+            </div>
+            <h3>About us.</h3>
+            <span>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</span>
+            <button>Learn More</button>
+        </section>
+    </main>
+
+
+
+
+
+
+    <!-- conteudo principal -->
+    <main>
+        
+        <h2>PRODUTOS</h2>
+
+        <div class="pizza-area"></div>
+    </main>
+    <!-- /conteudo principal -->
+
+    <!-- aside do carrinho -->
+    <aside>
+        <div class="cart--area">
+            <div class="menu-closer">❌</div>
+            <h1>Seus Produtos</h1>
+            <div class="cart"></div>
+            <div class="cart--details">
+                <div class="cart--totalitem subtotal">
+                    <span>Subtotal</span>
+                    <span>R$ --</span>
+                </div>
+                <div class="cart--totalitem desconto">
+                    <span>Desconto</span>
+                    <span>R$ --</span>
+                </div>
+                <div class="cart--totalitem total big">
+                    <span>Total</span>
+                    <span>R$ --</span>
+                </div>
+                <div class="cart--finalizar">Finalizar a compra</div>
+            </div>
+        </div>
+    </aside>
+    <!-- /aside do carrinho -->
+
+    <!-- janela modal .pizzaWindowArea -->
+    <div class="pizzaWindowArea">
+        <div class="pizzaWindowBody">
+            <div class="pizzaInfo--cancelMobileButton">Voltar</div>
+            <div class="pizzaBig">
+                <img src="" />
+            </div>
+            <div class="pizzaInfo">
+                <h1>--</h1>
+                <div class="pizzaInfo--desc">--</div>
+                <div class="pizzaInfo--sizearea">
+                    <div class="pizzaInfo--sector">CORES</div>
+                    <div class="pizzaInfo--sizes">
+                        <div data-key="P" class="pizzaInfo--size">COR:<span>--</span></div>
+                        <div data-key="M" class="pizzaInfo--size">COR:<span>--</span></div>
+                        <div data-key="G" class="pizzaInfo--size selected">COR:<span>--</span></div>
+                    </div>
+                </div>
+                <div class="pizzaInfo--pricearea">
+                    <div class="pizzaInfo--sector">Preço</div>
+                    <div class="pizzaInfo--price">
+                        <div class="pizzaInfo--actualPrice">R$ --</div>
+                        <div class="pizzaInfo--qtarea">
+                            <button class="pizzaInfo--qtmenos">-</button>
+                            <div class="pizzaInfo--qt">1</div>
+                            <button class="pizzaInfo--qtmais">+</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="pizzaInfo--addButton">Adicionar ao carrinho</div>
+                <div class="pizzaInfo--cancelButton">Cancelar</div>
+            </div>
+        </div>
+    </div>
+    <!-- /janela modal .pizzaWindowArea -->
+
+    <script src="pizzas.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>
